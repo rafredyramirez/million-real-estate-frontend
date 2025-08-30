@@ -3,9 +3,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    
       args:
-        VITE_API_URL: ${VITE_API_URL}"
+        VITE_API_URL: ${VITE_API_URL}
 
     image: million-real-estate-frontend
     container_name: million-real-estate-frontend

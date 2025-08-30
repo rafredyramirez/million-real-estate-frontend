@@ -9,7 +9,6 @@ RUN npm ci
 # Copia fuentes
 COPY . .
 
-# Permite sobreescribir VITE_API_URL en build
 ARG VITE_API_URL
 ENV VITE_API_URL=${VITE_API_URL}
 
